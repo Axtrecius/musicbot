@@ -1,19 +1,15 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+.idea/
+*.pyc
+~*/
+.vscode/
 
-# Other files and folders
-.settings/
+audio_cache/
+dectalk/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+discord.log
+logs/
+data/
+config/options.ini
+config/permissions.ini
+config/autoplaylist.txt
+config/autoplaylist_removed.txt
